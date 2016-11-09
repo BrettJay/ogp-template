@@ -49,8 +49,8 @@ Check to see if a custom image path for the ogp tag is present.
 ```haml
   - if @ogp_image_path.present?
     # Show the custom image.
-    %meta{property:"og:image",       content:"http://example.com/images/og/#{ogp_image_path/og.png"}
-    %meta{property:"fb:image",       content:"http://example.com/images/og/#{ogp_image_path/fb.png"}
+    %meta{property:"og:image",       content:"http://example.com/images/og/#{ogp_image_path}/og.png"}
+    %meta{property:"fb:image",       content:"http://example.com/images/og/#{ogp_image_path}/fb.png"}
   - else
     # Show the default ogp image.
     %meta{property:"og:image",       content:"http://example.com/images/og/og.png"}
@@ -60,7 +60,7 @@ Check to see if a custom image path for the ogp tag is present.
 
 ### In `page.haml`
 ```haml
-  - @ogp_image_path == foobar
+  - @ogp_image_path == 'foobar'
 ```
 
 This allow you to specify a folder for a custom opengraph images, but falls back to a default if none is specified.
