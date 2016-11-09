@@ -5,7 +5,7 @@ An incredibly bare-bones template for opengraph/twitter/facebook sharing nicetie
 ## Grid/Canon
 ![Screenshot of Sketch](screenshot.png)
 
-I’ve created a simple grid to help with laying out elements, and a corresponding layout grid (Toggle its visibility with contrl ⌃ L in Sketch).
+I’ve created a simple grid to help with laying out elements, and a corresponding layout grid (Toggle its visibility with `control + L` in Sketch).
 
 ## Generating the images
 There are slices places on the artboard for Facebook and Twitter share image sizes. Current as of the time of writing:
