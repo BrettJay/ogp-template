@@ -3,7 +3,7 @@
 An incredibly bare-bones template for opengraph/twitter/facebook sharing niceties. [Slack has an excellent article][slack-article] on the relevant opengraph properties.
 
 ## Grid/Canon
-![Screenshot of Sketch][screenshot.png]
+![Screenshot of Sketch](screenshot.png)
 
 I’ve created a simple grid to help with laying out elements, and a corresponding layout grid (Toggle its visibility with contrl ⌃ L in Sketch).
 
